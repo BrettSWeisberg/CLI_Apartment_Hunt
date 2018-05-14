@@ -13,7 +13,7 @@ class Cli
 
   def self.selected_apartment_info
     max = Apartment.all.count
-#fix here
+#fix here- max or if statement
     puts "Please select an apartment to see more info by typing in the corresponding number."
     input = gets.strip
     apt_num = input.to_i - 1
